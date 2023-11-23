@@ -1,0 +1,1 @@
+# glosity_internship_task
