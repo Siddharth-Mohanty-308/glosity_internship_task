@@ -1,0 +1,23 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Text Summarizer</title>
+</head>
+<body>
+    <header>
+        <h1>Glosity Text Summarizer</h1>
+    </header>
+
+    <div id="main-container">
+        <form action="/summarize" method="post">
+            <textarea id="text-input" name="text" rows="10" placeholder="Enter or paste your text here..."></textarea><br>
+            <input id="submit-button" type="submit" value="Generate Summary">
+        </form>
+    </div>
+</body>
+</html>
