@@ -6,7 +6,6 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 def summarizer(input_text,summ_size):
-    print(type(summ_size))
     def sentence_similarity(line1, line2, stopwords=None):
         if stopwords is None:
             stopwords = set()
